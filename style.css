@@ -190,8 +190,10 @@ header p {
 .update form {
     background: rgb(255, 244, 214);
     padding: 80px 90px;
-    margin: 30px 300px;
+    /* margin: 30px 377px; */
     border-radius: 5px;
+    width: 400px;
+    margin: 50px auto;
 }
 
 .update form input {
@@ -202,7 +204,7 @@ header p {
 }
 
 .update a {
-    padding: 7px 7px 9px;
+    padding: 9px 20px 9px 20px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     background: rgb(255, 89, 89);
