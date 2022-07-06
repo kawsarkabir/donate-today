@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 header{
-    background: url(./img/donation1.jpg);
+    background: linear-gradient(#41404063, #202020e8),url(./img/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px;
