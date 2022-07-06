@@ -1,70 +1,80 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-header{
-    background: linear-gradient(#41404063, #202020e8),url(./img/donation1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+/* header section start */
+header {
+    background: linear-gradient(rgba(65, 64, 64, 0.39), rgba(32, 32, 32, 0.91)) 0% 0% / cover no-repeat, url("./img/donation1.jpg");
     padding: 200px;
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
-header h1{
+
+header h1 {
     font-size: 50px;
-    margin: 0;
+    margin: 0px;
 }
-header p{
-    color: #d8d8d8;
+
+header p {
+    color: rgb(216, 216, 216);
     font-size: 15px;
 }
+
 .btn {
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    background: #ff5959;
+    background: rgb(255, 89, 89);
     display: inline-block;
     padding: 10px 15px;
     border-radius: 10px;
     margin-left: -35px;
 }
 /* header section end */
-/* donate today section start */
-.donate-today{
+/* donate-today section start */
+.donate-today {
     text-align: center;
     padding: 100px 200px;
 }
-.donate-today h1{
+
+.donate-today h1 {
     font-size: 35px;
-    margin: 0;
+    margin: 0px;
     font-weight: 600;
 }
-.donate-today p{
-    color: #707070;
+
+.donate-today p {
+    color: rgb(112, 112, 112);
     font-size: 15px;
 }
-.amount{
+
+.amount {
     display: flex;
-    /* margin: 10px 0px; */
     margin-top: 30px;
 }
-.amount h1{
+
+.amount h1 {
     text-align: center;
     margin: 22px;
-    background: #dddddd2e;
+    background: rgba(221, 221, 221, 0.18);
     padding: 25px 10px;
     border-radius: 5px;
-    color: #707070;
+    color: rgb(112, 112, 112);
     font-size: 30px;
 }
-.amount .amount-200{
-    border: 2px solid #ff5959;
-    color: #ff5959;
-    background: #ff59592d;
+
+.amount .amount-200 {
+    border: 2px solid rgb(255, 89, 89);
+    color: rgb(255, 89, 89);
+    background: rgba(255, 89, 89, 0.176);
 }
-.donate-today input{
-    border: none;
-    border-bottom: 1px solid #dadada;
+
+.donate-today input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(218, 218, 218);
     padding: 6px 280px;
     margin-top: 30px;
     font-size: 16px;
@@ -72,131 +82,148 @@ header p{
 }
 /* donate today section end */
 /* donate plan section start */
-.donate-plan{
-    padding: 0px 100px 100px 100px;
+.donate-plan {
+    padding: 0px 100px 100px;
     margin-top: 0px;
 }
-.donate-plan-text{
+
+.donate-plan-text {
     text-align: center;
 }
-.donate-plan-text h1{
+
+.donate-plan-text h1 {
     font-size: 35px;
-    margin: 0;
+    margin: 0px;
 }
-.donate-plan-text p{
+
+.donate-plan-text p {
     padding: 0px 200px;
-    color: #707070;
+    color: rgb(112, 112, 112);
     font-size: 15px;
 }
-.donate-plan-items{
+
+.donate-plan-items {
     display: flex;
 }
-.donate-plan-items .items-1{
-    width: 30%;
-    background: #edf5f6;
+
+.donate-plan-items .items-1 {
+    width: 28%;
+    background: rgb(237, 245, 246);
     padding: 15px;
     border-radius: 5px;
-    margin: 30px 10px;
+    margin: 30px auto;
 }
-.donate-plan-items .items-2{
-    background-color: #ffeeee;
+
+.donate-plan-items .items-2 {
+    background-color: rgb(255, 238, 238);
 }
-.donate-plan-items .items-3{
-    background: #fff4d6;
+
+.donate-plan-items .items-3 {
+    background: rgb(255, 244, 214);
 }
 /* donate plan section end */
 /* latest work section start */
-.latest-work{
-    padding-bottom:100px ;
+.latest-work {
+    padding-bottom: 100px;
 }
-.latest-work-text{
+
+.latest-work-text {
     text-align: center;
-    padding: 0px 100px 90px 100px;
+    padding: 0px 100px 90px;
 }
-.latest-work-text p{
+
+.latest-work-text p {
     font-size: 15px;
     font-weight: bold;
 }
-.latest-work-text h1{
+
+.latest-work-text h1 {
     font-size: 35px;
-    margin: 0;
+    margin: 0px;
 }
-.latest-work-text span{
-    color: #ff5959;
+
+.latest-work-text span {
+    color: rgb(255, 89, 89);
 }
-.latest-work-items{
+
+.latest-work-items {
     display: flex;
 }
-.latest-work-item-1{
-     width: 22%;
-     box-shadow: 1px 1px 30px #707070;
-     margin: 0px 10px;
-     padding: 10px;
-     border-radius: 5px;
+
+.latest-work-item-1 {
+    width: 22%;
+    box-shadow: rgb(112, 112, 112) 1px 1px 30px;
+    padding: 0px;
+    border-radius: 5px;
+    margin: 0px auto;
 }
-.latest-work-item-1 img{
+
+.latest-work-item-1 img {
     width: 100%;
+    border-radius: 5px 5px 0px 0px;
 }
-.latest-work-item-1 p{
-    color: #ff5959;
+
+.latest-work-item-1 p {
+    color: rgb(255, 89, 89);
 }
-/* latest work section end */
+
+.latest-work-item-1-text {
+    padding: 5px 10px;
+}
+/* laset work section end */
 /* update section start */
-.update{
+.update {
     padding-bottom: 100px;
 }
-.update h1{
+
+.update h1 {
     font-size: 35px;
     text-align: center;
 }
-.update p{
-    color: #8f8c8c;
+
+.update p {
+    color: rgb(143, 140, 140);
     text-align: center;
     padding: 0px 200px;
 }
-.update form{
-    background: #fff4d6;
+
+.update form {
+    background: rgb(255, 244, 214);
     padding: 80px 90px;
     margin: 30px 300px;
     border-radius: 5px;
 }
-.update form input{
+
+.update form input {
     border: none;
-    background: #d9d9d9;
+    background: rgb(217, 217, 217);
     padding: 13px 40px;
     border-radius: 5px 0px 0px 5px;
-    
 }
-.update a{
-    padding: 7px 7px 9px 7px;
+
+.update a {
+    padding: 7px 7px 9px;
     text-decoration: none;
-    color: #fff;
-    background: #ff5959;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 89, 89);
     margin-left: -4px;
     border-radius: 0px 5px 5px 0px;
     display: inline-block;
 }
 /* update section end */
 /* footer section start */
-footer{
-    background: #000000;
+footer {
+    background: rgb(0, 0, 0);
     padding: 50px 0px;
     text-align: center;
 }
-footer h1{
-    color: #ff5959;
+
+footer h1 {
+    color: rgb(255, 89, 89);
     font-size: 20px;
 }
-footer small{
-    color: #d8d8d8;
+
+footer small {
+    color: rgb(216, 216, 216);
 }
 /* footer section end */
-
-
-
-
- 
-
- 
-
-
