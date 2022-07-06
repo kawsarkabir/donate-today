@@ -5,7 +5,9 @@ body {
 }
 /* header section start */
 header {
-    background: linear-gradient(rgba(65, 64, 64, 0.39), rgba(32, 32, 32, 0.91)) 0% 0% / cover no-repeat, url("./img/donation1.jpg");
+    background:linear-gradient(#24242463, #292929e8), url(img/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 200px;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -50,14 +52,13 @@ header p {
 
 .amount {
     display: flex;
-    margin-top: 30px;
 }
 
 .amount h1 {
     text-align: center;
-    margin: 22px;
+    margin: 10px auto;
     background: rgba(221, 221, 221, 0.18);
-    padding: 25px 10px;
+    padding: 30px 12px;
     border-radius: 5px;
     color: rgb(112, 112, 112);
     font-size: 30px;
@@ -70,15 +71,20 @@ header p {
 }
 
 .donate-today input {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-image: initial;
+    border: none;
     border-bottom: 1px solid rgb(218, 218, 218);
-    padding: 6px 280px;
-    margin-top: 30px;
+    padding: 5px -39px;
+    margin-top: 50px;
     font-size: 16px;
     margin-bottom: 20px;
+    padding-left: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: -110px;
+}
+.donate-today-content{
+    width: 250px;
+    margin: 0px auto;
 }
 /* donate today section end */
 /* donate plan section start */
@@ -190,7 +196,6 @@ header p {
 .update form {
     background: rgb(255, 244, 214);
     padding: 80px 90px;
-    /* margin: 30px 377px; */
     border-radius: 5px;
     width: 400px;
     margin: 50px auto;
