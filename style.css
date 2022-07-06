@@ -26,6 +26,7 @@ header p{
     display: inline-block;
     padding: 10px 15px;
     border-radius: 10px;
+    margin-left: -35px;
 }
 /* header section end */
 /* donate today section start */
@@ -34,7 +35,7 @@ header p{
     padding: 100px 200px;
 }
 .donate-today h1{
-    font-size: 40px;
+    font-size: 35px;
     margin: 0;
     font-weight: 600;
 }
@@ -44,6 +45,8 @@ header p{
 }
 .amount{
     display: flex;
+    /* margin: 10px 0px; */
+    margin-top: 30px;
 }
 .amount h1{
     text-align: center;
@@ -63,10 +66,57 @@ input{
     border: none;
     border-bottom: 1px solid #dadada;
     padding: 6px 280px;
-    margin-top: 45px;
-    font-size: 18px;
+    margin-top: 30px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
+/* donate today section end */
+/* donate plan section start */
+.donate-plan{
+    padding: 0px 100px 100px 100px;
+    /* margin-top: 0px; */
+}
+.donate-plan-text{
+    text-align: center;
+}
+.donate-plan-text h1{
+    font-size: 35px;
+    margin: 0;
+}
+.donate-plan-text p{
+    padding: 0px 200px;
+    color: #707070;
+    font-size: 15px;
+}
+.donate-plan-items{
+    display: flex;
+}
+.donate-plan-items .items-1{
+    width: 30%;
+    background: #edf5f6;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 30px 10px;
+}
+.donate-plan-items .items-2{
+    background-color: #ffeeee;
+}
+.donate-plan-items .items-3{
+    background: #fff4d6;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* donate plan section end */
 
 
 
