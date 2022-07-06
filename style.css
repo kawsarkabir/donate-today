@@ -15,6 +15,10 @@ header h1{
     font-size: 50px;
     margin: 0;
 }
+header p{
+    color: #d8d8d8;
+    font-size: 15px;
+}
 .btn {
     color: #fff;
     text-decoration: none;
@@ -23,3 +27,54 @@ header h1{
     padding: 10px 15px;
     border-radius: 10px;
 }
+/* header section end */
+/* donate today section start */
+.donate-today{
+    text-align: center;
+    padding: 100px 200px;
+}
+.donate-today h1{
+    font-size: 40px;
+    margin: 0;
+    font-weight: 600;
+}
+.donate-today p{
+    color: #707070;
+    font-size: 15px;
+}
+.amount{
+    display: flex;
+}
+.amount h1{
+    text-align: center;
+    margin: 22px;
+    background: #dddddd2e;
+    padding: 25px 10px;
+    border-radius: 5px;
+    color: #707070;
+    font-size: 30px;
+}
+.amount .amount-200{
+    border: 2px solid #ff5959;
+    color: #ff5959;
+    background: #ff59592d;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #dadada;
+    padding: 6px 280px;
+    margin-top: 45px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+ 
+
+ 
+
+
