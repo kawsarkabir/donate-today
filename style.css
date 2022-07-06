@@ -104,19 +104,53 @@ input{
 .donate-plan-items .items-3{
     background: #fff4d6;
 }
- 
-
-
-
-
-
-
-
-
-
-
-
 /* donate plan section end */
+/* latest work section start */
+.latest-work{
+    padding-bottom:100px ;
+}
+.latest-work-text{
+    text-align: center;
+    padding: 100px;
+}
+.latest-work-text p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.latest-work-text h1{
+    font-size: 35px;
+    margin: 0;
+}
+.latest-work-text span{
+    color: #ff5959;
+}
+.latest-work-items{
+    display: flex;
+}
+.latest-work-item-1{
+     width: 22%;
+     box-shadow: 1px 1px 30px #707070;
+     margin: 0px 10px;
+     padding: 10px;
+}
+.latest-work-item-1 img{
+    width: 100%;
+}
+.latest-work-item-1 p{
+    color: #ff5959;
+}
+/* latest work section end */
+/* update section start */
+.update{}
+.update h1{
+    font-size: 35px;
+    text-align: center;
+}
+.update p{
+    color: #8f8c8c;
+    text-align: center;
+    padding: 0px 200px;
+}
 
 
 
