@@ -141,7 +141,9 @@ input{
 }
 /* latest work section end */
 /* update section start */
-.update{}
+.update{
+    padding-bottom: 100px;
+}
 .update h1{
     font-size: 35px;
     text-align: center;
@@ -151,8 +153,21 @@ input{
     text-align: center;
     padding: 0px 200px;
 }
-
-
+/* update section end */
+/* footer section start */
+footer{
+    background: #000000;
+    padding: 50px 0px;
+    text-align: center;
+}
+footer h1{
+    color: #ff5959;
+    font-size: 20px;
+}
+footer small{
+    color: #d8d8d8;
+}
+/* footer section end */
 
 
 
