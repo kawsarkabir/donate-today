@@ -5,10 +5,11 @@ body {
 }
 /* header section start */
 header {
-    background:linear-gradient(#24242463, #292929e8), url(img/donation1.jpg);
+    background:
+    linear-gradient(#24242463, #292929e8), url(img/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px;
+    padding: 172px;
     text-align: center;
     color: rgb(255, 255, 255);
 }
@@ -20,7 +21,7 @@ header h1 {
 
 header p {
     color: rgb(216, 216, 216);
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .btn {
@@ -227,10 +228,14 @@ footer {
 
 footer h1 {
     color: rgb(255, 89, 89);
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+
 }
 
 footer small {
     color: rgb(216, 216, 216);
+    
+
 }
 /* footer section end */
